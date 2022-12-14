@@ -1,0 +1,30 @@
+.qualitybg{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/aboutbg.png') no-repeat center;
+	background-size: cover;
+	height: 300px;
+}
+.milestone{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/aboutbgthree.png') no-repeat center;
+	background-size: cover;
+	height: 300px;
+}
+.factory{
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../public/factory.png') no-repeat center;
+	background-size: cover;
+	height: 300px;
+}
+.titledesign{
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.titledesign::after{
+	position: absolute;
+	content: '';
+	top: 1px;
+	left: 151px;
+	width: 50px;
+	height: 5px;
+	background-color: #ffa850;
+	border-radius: 50px;
+}

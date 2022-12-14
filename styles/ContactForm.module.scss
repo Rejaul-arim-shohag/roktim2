@@ -1,0 +1,29 @@
+.background {
+	background: url(../public/bg1.png) no-repeat center;
+	background-size: cover;
+	overflow: hidden;
+}
+.shadow {
+	box-shadow: none !important;
+}
+input.form-control.mb-3.rounded-0.name.bg-transparent.shadow {
+	color: white;
+}
+.button{
+	border-radius: 0;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	font-family: 'Corda';
+	margin-top: 20px;
+	transition: all linear 0.3s;
+	&:hover{
+		border: 1px solid #fff;
+		background: #ffa800;
+		color: #fff;
+	}
+	// font-size: 14px;
+	// px-4 py-2 rounded-0 text-light
+}
+
