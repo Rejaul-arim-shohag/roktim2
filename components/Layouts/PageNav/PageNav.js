@@ -11,7 +11,6 @@ import Link from 'next/link';
 import Navstyle from '../../../styles/Navbar.module.scss';
 
 const PageNav = () => {
-
 	return (
 		<>
 			<Navbar expand="lg" className="p-0" bg="" >
@@ -21,7 +20,7 @@ const PageNav = () => {
 							<img src="../IFADlogo.png" className='img-fluid' width={220} height={82} />
 						</Link>
 					</Navbar.Brand>
-					<Link  href="/product" shallow >Products</Link>
+					
 					<Navbar.Toggle aria-controls="navbarScroll" />
 
 					<Navbar.Collapse id="navbarScroll">
